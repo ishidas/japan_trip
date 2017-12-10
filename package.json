@@ -1,0 +1,33 @@
+{
+  "name": "japan_trip",
+  "version": "1.0.0",
+  "description": "I wanted to record where I have been in Japan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishidas/japan_trip.git"
+  },
+  "author": "sawako.ishida1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishidas/japan_trip/issues"
+  },
+  "homepage": "https://github.com/ishidas/japan_trip#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react-dom": "^16.2.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
