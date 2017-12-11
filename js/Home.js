@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Nav from './nav.js';
+import AppBarMUI from './appBar.js';
 
 class Home extends Component {
   render() {
     return (
       <section>
-        <Nav />
+        <AppBarMUI />
         <h1>Hello World</h1>
       </section>
     )
