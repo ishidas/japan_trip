@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import AppBarMUI from './appBar.js';
+import HomeStyle from '../scss/home.scss';
+import HomeCards from './HomeCards.js';
 
 class Home extends Component {
   render() {
     return (
-      <section>
-        <AppBarMUI />
-        <h1>Hello World</h1>
+      <section className="home-section">
+        <h1 className="hometitle-h1">Trip to Japan</h1>
       </section>
     )
   }
