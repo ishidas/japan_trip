@@ -11,12 +11,14 @@ class AppBarMUI extends Component {
   render () {
     return (
       <section>
-      <AppBar
-        title="Japan Trip"
-        iconElementLeft={<Nav />}
-      />
-      <Home />
-      <HomeCards />
+        <AppBar
+          title="Japan Trip"
+          iconElementLeft={<Nav />}
+        />
+        <section>
+          <Home />
+          <HomeCards />
+        </section>
       </section>
     )
   }
