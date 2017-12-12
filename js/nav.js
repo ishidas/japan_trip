@@ -5,6 +5,7 @@ import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
+import muiThemeable from 'material-ui/styles/muiThemeable';
 
 class Nav extends Component {
 
@@ -13,8 +14,8 @@ class Nav extends Component {
       <div>
         <IconMenu
           iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
-          anchorOrigin={{horizontal: 'left', vertical: 'top'}}
-          targetOrigin={{horizontal: 'left', certival: 'top'}}
+          anchorOrigin={{horizontal: 'right', vertical: 'top'}}
+          targetOrigin={{horizontal: 'right', certival: 'top'}}
         >
         <MenuItem primaryText="Home"/>
         <MenuItem primaryText="Gallery"/>
