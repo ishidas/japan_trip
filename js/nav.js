@@ -14,8 +14,7 @@ class Nav extends Component {
       <div>
         <IconMenu
           iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
-          anchorOrigin={{horizontal: 'right', vertical: 'top'}}
-          targetOrigin={{horizontal: 'right', certival: 'top'}}
+          iconStyle={{ fill: 'fff' }}
         >
         <MenuItem primaryText="Home"/>
         <MenuItem primaryText="Gallery"/>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import { grey700 } from 'material-ui/styles/colors';
+import { grey700, grey50, grey900  } from 'material-ui/styles/colors';
 import Style from '../scss/global.scss';
 import AppBarMUI from './appBar.js';
 import Home from './Home.js';
@@ -11,6 +11,7 @@ import HomeCards from './HomeCards.js';
 
 const muiTheme = getMuiTheme({
   palette: {
+    primary1Color: grey900,
     textColor: grey700,
   },
   appBar: {
