@@ -5,6 +5,7 @@ import IconButton from 'material-ui/IconButton';
 import Nav from './nav.js';
 import Home from './Home.js';
 import HomeCards from './HomeCards.js';
+import IconTitleAppBar from './iconTitleAppBar.js';
 
 class AppBarMUI extends Component {
 
@@ -12,8 +13,9 @@ class AppBarMUI extends Component {
     return (
       <section>
         <AppBar
-          title="Japan Trip"
+          iconElementRight={<IconTitleAppBar />}
           iconElementLeft={<Nav />}
+          style={{ position: "fixed" }}
         />
         <section>
           <Home />

@@ -8,6 +8,8 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
+    background: '#ECEFF1',
+    height: '812px',
   },
   gridList: {
     width: 500,
@@ -25,7 +27,7 @@ const tilesData = [
   },
   {
     img: '../scss/assets/alex-knight-199364.jpg',
-    title: 'octpus',
+    title: 'Octopus',
     author: 'alex knight'
   },
   {
@@ -59,7 +61,7 @@ class HomeCards extends Component {
               cellHeight={180}
               style={styles.gridList}
               >
-              <Subheader>Things You Should Try in Osaka</Subheader>
+              <Subheader>Osaka</Subheader>
               {tilesData.map((tile) => {
                 return <GridTile
                   key={tile.img}
