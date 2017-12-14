@@ -9,11 +9,11 @@ const styles = {
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     background: '#ECEFF1',
-    height: '812px',
+    height: 812,
   },
   gridList: {
-    width: 500,
-    height: 450,
+    width: 800,
+    height: 800,
     overflowY: 'auto',
   },
 };
