@@ -16,6 +16,9 @@ const styles = {
     height: 800,
     overflowY: 'auto',
   },
+  sub: {
+    paddingTop: '10%',
+  }
 };
 
 
@@ -51,17 +54,17 @@ const tilesData = [
     author: 'matthew hamilton'
   },
 ]
-class HomeCards extends Component {
+class Gallery extends Component {
 
     render() {
       return (
           <div style={styles.root}>
             <GridList
-              cols={3}
-              cellHeight={180}
+              cols={2}
+              cellHeight={300}
               style={styles.gridList}
               >
-              <Subheader>Osaka</Subheader>
+              <Subheader style={styles.sub}>Osaka</Subheader>
               {tilesData.map((tile) => {
                 return <GridTile
                   key={tile.img}
@@ -76,4 +79,4 @@ class HomeCards extends Component {
   }
 }
 
-export default HomeCards;
+export default Gallery;

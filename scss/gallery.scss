@@ -1,0 +1,13 @@
+:local(.root) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around,
+
+  }
+
+:local(.gridList) {
+  width: 500px;
+  height: 450px;
+  overflow-y: auto;
+  
+}

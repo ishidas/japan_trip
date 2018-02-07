@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import AppBarMUI from './appBar.js';
 import HomeStyle from '../scss/home.scss';
-import HomeCards from './HomeCards.js';
+import Gallery from './Gallery.js';
+
 
 class Home extends Component {
   render() {
