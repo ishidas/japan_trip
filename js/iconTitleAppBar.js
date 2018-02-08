@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import iconImage from '../scss/assets/japan_trip_icon.svg';
+// import iconImage from '../scss/assets/japan_trip_icon.svg';
 
 const divStyle = {
   padding: '0 15px',
@@ -10,7 +10,7 @@ class IconTitleAppBar extends Component {
   render() {
     return (
       <div style={divStyle}>
-        <img src={iconImage} />
+        <img src={'build/' + require('../scss/assets/japan_trip_icon.svg')} />
       </div>
     )
   }
